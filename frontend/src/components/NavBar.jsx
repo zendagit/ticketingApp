@@ -26,10 +26,10 @@ export default function NavBar() {
           Home
         </button>
         <button onClick={() => navigate("/admin/employees")} style={{ padding: "6px 10px" }}>
-          Employees
+          Employees - (Admin View only)
         </button>
         <button onClick={() => navigate("/admin/tickets")} style={{ padding: "6px 10px" }}>
-          Tickets
+          Tickets - (Admin View only)
         </button>
       </div>
 

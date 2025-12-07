@@ -14,7 +14,7 @@ export default function MyTickets() {
   useEffect(() => {
     if (!user) return;
     if (user.role !== "employee") {
-      setError("Forbidden — employees only");
+      setError("NB - This section is for employees only");
       return;
     }
 

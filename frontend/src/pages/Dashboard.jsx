@@ -13,7 +13,7 @@ export default function Dashboard() {
       </div>
 
       <div style={{ marginTop: 20 }}>
-        <strong>Note:</strong> Use the navigation bar at the top to access Employees and Tickets sections.
+        <a href="http://localhost:5173/employee/tickets">Click here to see Tickets assigned to you.</a>
       </div>
     </div>
   );
