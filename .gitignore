@@ -1,0 +1,16 @@
+# Laravel
+/vendor
+/node_modules
+/.env
+/public/storage
+/storage/*.key
+Homestead.yaml
+Homestead.json
+
+# React/Vite
+/frontend/node_modules
+/frontend/dist
+
+# IDE / OS files
+.vscode
+.DS_Store
